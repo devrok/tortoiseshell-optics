@@ -54,7 +54,6 @@ header {
   height: 1.50rem;
   width: auto;
 }
-
 .navlogocontainer span {
   margin-left: 1rem;
   font-size: 1rem;
@@ -65,7 +64,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 .navcontainer a {
   margin: 1rem 0 1rem 2rem;
   color: white;
@@ -202,7 +200,40 @@ footer {
 
 /* ---- TABLET STYLE ---- */
 @media only screen and (max-width: 1024px) {
+  .sitecontainer {
+    max-width: 100%;
+    /* width: 100%; */
+    margin: 0;
+  }
 
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .headerflexcontainer {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .headertextcontainer {
+    /* margin-left: 2rem; */
+    margin-top: 5rem;
+    margin-right: 2rem;
+    background-color: white;
+    display: flex;
+  }
+
+  .headertextcontainer h1 {
+    line-height: 1.2;
+    font-size: 1.33rem;
+    font-weight: bold;
+    color: black;
+    margin: 0.75rem 4rem;
+  }
 }
 
 /* ---- MOBILE STYLE ---- */
