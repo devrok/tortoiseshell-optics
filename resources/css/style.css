@@ -1,0 +1,89 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+  background-color: white;
+  color: white;
+}
+
+.sitecontainer {
+  max-width: 960px;
+  /* width: 100%; */
+  margin: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* ---- HEADER SECTION  ---- */
+header {
+  height: 31rem;
+  width: 100%;
+  padding-top: 1rem;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.background01 {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navcontainer {
+  /* with this property navcontainer is not "centered" properly */
+  /* width: 100%;  */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlogocontainer {
+  display: flex;
+  align-items: center;
+}
+.navlogocontainer img {
+  height: 1.50rem;
+  width: auto;
+}
+
+.navlogocontainer span {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.navcontainer nav {
+  padding: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navcontainer a {
+  margin: 1rem 0 1rem 2rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.headerflexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.headertextcontainer {
+  margin-top: 10rem;
+  background-color: white;
+  display: flex;
+}
+
+.headertextcontainer h1 {
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin: 1.5rem 5rem;
+}
