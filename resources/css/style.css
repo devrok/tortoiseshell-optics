@@ -199,3 +199,13 @@ footer {
 .footerlogocontainer span {
   margin-left: 1rem;
 }
+
+/* ---- TABLET STYLE ---- */
+@media only screen and (max-width: 1024px) {
+
+}
+
+/* ---- MOBILE STYLE ---- */
+@media only screen and (max-width: 470px) {
+
+}
