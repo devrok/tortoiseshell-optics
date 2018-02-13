@@ -188,10 +188,8 @@ footer {
 
 .footerlogocontainer {
   margin-top: 5rem;
-
   background-color: azure;
   padding: 4rem;
-
   color: black;
   display: flex;
   align-items: center;
@@ -262,6 +260,10 @@ footer {
     margin: 0;
   }
 
+  p {
+    font-size: 0.77rem;
+  }
+
   header {
     height: 17rem;
     padding-top: 0;
@@ -312,5 +314,93 @@ footer {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  /* ---- CONTENT SECTION ---- */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentservice {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contentserviceitemcontainer{
+    width: 5rem;
+    max-height: 8rem;
+    margin-top: 0.77rem;
+    margin-bottom: 0.77rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contentinfo {
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+
+  .contentinfoitemcontainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contentinfoitemcontainer .infoitemheader {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: cadetblue;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .contentinfoitemcontainer p {
+    /* width: 100%; */
+    color: black;
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .footerlogocontainer {
+    margin-top: 5rem;
+    background-color: azure;
+    padding: 4rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footerlogocontainer img {
+    height: 1.5rem;
+    width: auto;
+  }
+
+  .footerlogocontainer span {
+    display: none;
   }
 }
